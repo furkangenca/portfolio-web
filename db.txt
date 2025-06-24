@@ -1,0 +1,16 @@
+DB_HOST=localhost
+DB_PORT=3306
+DB_USER=root
+DB_PASSWORD=1234
+DB_NAME=furkan_portfolio
+
+
+   sudo docker exec -it furkan-mysql mysql -uroot -p1234
+   
+   sudo docker exec -i furkan-mysql mysql -u root -p furkan_portfolio < backend/database.sql
+
+   
+
+   
+   sudo docker start furkan-mysql
+

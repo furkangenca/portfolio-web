@@ -1,0 +1,11 @@
+Proje Değerlendirme Kriterleri
+    • Site Map
+    • Ziyaretçi Sayacı 
+    • Online Kullanıcı Sayısı
+    • Duyuru-Haber Modülü
+    • Resim Galerisi
+    • Admin Panel ve Kullanıcı Yetkilendirmesi
+    • CSRF
+    • Slugify
+    • Tasarım, Düzen, Emek
+    • Soru-Cevap 
