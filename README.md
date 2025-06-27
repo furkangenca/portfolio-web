@@ -76,9 +76,6 @@ npm run dev
 
 Admin paneline `/admin` rotası üzerinden erişebilirsiniz. İlk kullanıcı oluşturma işlemi için `generateHash.js` scriptini kullanabilirsiniz.
 
-## 📝 Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakın.
 
 ## 👨‍💻 Geliştirici
 
