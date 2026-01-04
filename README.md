@@ -1,52 +1,68 @@
-# 🌐 Portfolio Web 
+#  Portfolio Web – Full-Stack Personal Platform
 
-This repository presents a full-stack portfolio website designed to showcase personal projects, technical skills, and blog content.  
-The source code is private — this demo outlines the architecture, features, and technologies used.
+This project is a full-stack web application designed to showcase projects, technical skills, and written content through a dynamic and self-managed system.
 
----
-
-## 🧠 Overview
-
-A custom-built web application that includes:
-
-- Project and skills showcase  
-- Blog with markdown support  
-- Admin panel for managing content  
-- Visitor analytics and activity logging  
-- Authentication with secure access control
-
-The system was designed with scalability, clarity, and content autonomy in mind.
+Beyond a static portfolio, it includes a custom backend, admin panel, and content management features.
 
 ---
 
-## 🛠️ Tech Stack
-
-### Frontend
-- **Next.js** + **TypeScript**
-- **Tailwind CSS** + **Shadcn UI**
-- **React Query**
-
-### Backend
-- **Node.js** + **Express**
-- **MySQL**
-- **JWT Authentication**, **CSRF Protection**
+## Tech Stack
+- Frontend: Next.js, TypeScript, Tailwind CSS
+- Backend: Node.js, Express
+- Database: MySQL
+- Auth: JWT-based authentication
+- Other: React Query, Shadcn UI
 
 ---
 
-## 📸 Screenshots
-
-![Screenshot](https://github.com/user-attachments/assets/71b5f5e9-42e9-4f7a-abc2-482ca645400c)
-
----
-
-## 👨‍💻 Developer
-
-**Furkan Gença**  
+## Key Features
+- Dynamic project and skills showcase
+- Blog system with markdown-based content
+- Admin panel for managing posts and content
+- Secure authentication and access control
+- Visitor activity logging and basic analytics
 
 ---
 
-## 📄 License
+## Architecture & Design
 
-Licensed under the MIT License.
-You may use, modify, and distribute this project under its terms.
+### Backend Architecture
+- RESTful API built with Node.js and Express
+- Layered structure separating routes, controllers, and services
+- JWT-based authentication with protected admin routes
 
+### Database Design
+- Relational schema for users, posts, and projects
+- Secure handling of credentials and content data
+- Optimized queries for content retrieval
+
+### Frontend Integration
+- Server-side rendering with Next.js
+- Data fetching and caching using React Query
+- Component-based UI with reusable layouts
+
+---
+
+## Screenshots
+![Portfolio Screenshot](https://github.com/user-attachments/assets/71b5f5e9-42e9-4f7a-abc2-482ca645400c)
+
+---
+
+## What I Learned
+- Designing and implementing full-stack web applications
+- Building custom admin panels and content management systems
+- Secure authentication and authorization workflows
+- Integrating frontend and backend in a production-style setup
+
+---
+
+## Setup
+1. Clone the repository
+2. Configure environment variables
+3. Install dependencies for frontend and backend
+4. Run the application locally
+
+---
+
+## License
+This project is licensed under the MIT License.
