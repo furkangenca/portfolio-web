@@ -48,14 +48,6 @@ Beyond a static portfolio, it includes a custom backend, admin panel, and conten
 
 ---
 
-## What I Learned
-- Designing and implementing full-stack web applications
-- Building custom admin panels and content management systems
-- Secure authentication and authorization workflows
-- Integrating frontend and backend in a production-style setup
-
----
-
 ## Setup
 1. Clone the repository
 2. Configure environment variables
