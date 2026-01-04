@@ -1,82 +1,52 @@
-# Portfolio Web Projesi
+# 🌐 Portfolio Web 
 
-Bu proje, kişisel portfolyo web sitesi için geliştirilmiş full-stack bir uygulamadır. Next.js frontend ve Node.js backend kullanılarak oluşturulmuştur.
+This repository presents a full-stack portfolio website designed to showcase personal projects, technical skills, and blog content.  
+The source code is private — this demo outlines the architecture, features, and technologies used.
 
-## 🚀 Özellikler
+---
 
-- Modern ve responsive tasarım
-- Blog yönetim sistemi
-- Proje portfolyosu
-- Deneyim ve yetenekler bölümü
-- Admin paneli
-- Ziyaretçi takip sistemi
+## 🧠 Overview
 
-## 🛠️ Teknolojiler
+A custom-built web application that includes:
+
+- Project and skills showcase  
+- Blog with markdown support  
+- Admin panel for managing content  
+- Visitor analytics and activity logging  
+- Authentication with secure access control
+
+The system was designed with scalability, clarity, and content autonomy in mind.
+
+---
+
+## 🛠️ Tech Stack
 
 ### Frontend
-- Next.js
-- TypeScript
-- Tailwind CSS
-- Shadcn UI
-- React Query
+- **Next.js** + **TypeScript**
+- **Tailwind CSS** + **Shadcn UI**
+- **React Query**
 
 ### Backend
-- Node.js
-- Express.js
-- MySQL
-- JWT Authentication
-- CSRF Protection
+- **Node.js** + **Express**
+- **MySQL**
+- **JWT Authentication**, **CSRF Protection**
 
-## 📦 Kurulum
+---
 
-### Backend Kurulumu
+## 📸 Screenshots
 
-```bash
-cd backend
-npm install
-```
+![Screenshot](https://github.com/user-attachments/assets/71b5f5e9-42e9-4f7a-abc2-482ca645400c)
 
-`.env` dosyasını oluşturun ve gerekli değişkenleri ayarlayın:
-```env
-DB_HOST=localhost
-DB_USER=your_username
-DB_PASSWORD=your_password
-DB_NAME=portfolio_db
-JWT_SECRET=your_jwt_secret
-```
+---
 
-Veritabanını oluşturun:
-```bash
-mysql -u root -p < database.sql
-```
+## 👨‍💻 Developer
 
-Backend'i başlatın:
-```bash
-npm run dev
-```
+**Furkan Gença**  
 
-### Frontend Kurulumu
+---
 
-```bash
-cd frontend
-npm install
-```
+## 📄 License
 
-`.env.local` dosyasını oluşturun:
-```env
-NEXT_PUBLIC_API_URL=http://localhost:3000/api
-```
+Licensed under the MIT License.
+You may use, modify, and distribute this project under its terms.
 
-Frontend'i başlatın:
-```bash
-npm run dev
-```
-
-## 🔐 Admin Paneli
-
-Admin paneline `/admin` rotası üzerinden erişebilirsiniz. İlk kullanıcı oluşturma işlemi için `generateHash.js` scriptini kullanabilirsiniz.
-
-
-## 👨‍💻 Geliştirici
-
-- Furkan Genç - [GitHub](https://github.com/furkangenca) 
